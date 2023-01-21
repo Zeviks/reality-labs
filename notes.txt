@@ -1,0 +1,16 @@
+[ Installation ] 
+Next.JS 13, TailwindCSS, Sanity v3
+
+[ Installing Sanity v3 ]
+npm create sanity@latest -- --coupon sonny2022
+
+This asks you multiple questions upon installing, 
+Project name, 
+our programming l
+etc, 
+
+They also have predefined schemas that we can use, for example in this case i picked the blog schema for the blog side of things of the app 
+
+Now allow sanity to work with next js, we need to then install the sanity-next plugin. This allows sanity to connect to our next.js frontend.
+
+
