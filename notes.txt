@@ -14,3 +14,9 @@ They also have predefined schemas that we can use, for example in this case i pi
 Now allow sanity to work with next js, we need to then install the sanity-next plugin. This allows sanity to connect to our next.js frontend.
 
 
+When you use the sanity command, it will create its own project, with its own package.json and node_modules. Since we already have does what it did 
+is go into the sanity package.json, and copied over all of the necessary dependencies for sanity to function, then i move of all the required files for sanity 
+Like the scheams folder, sanity.cli and sanity.config.
+
+In general i took two separete projects and merged them to gether.
+
