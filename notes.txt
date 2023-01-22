@@ -20,3 +20,9 @@ Like the scheams folder, sanity.cli and sanity.config.
 
 In general i took two separete projects and merged them to gether.
 
+We then create an eviroment file to store all our our keys 
+If it has public means anyone can see it
+
+--Check sanity.config for other notes 
+
+Schemas is where we structure how our data will be stored and displayed. 
