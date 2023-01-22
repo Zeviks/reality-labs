@@ -26,3 +26,12 @@ If it has public means anyone can see it
 --Check sanity.config for other notes 
 
 Schemas is where we structure how our data will be stored and displayed. 
+
+
+
+
+
+[Compartementalizing]
+
+By adding () to a folder it will not affect its root. 
+

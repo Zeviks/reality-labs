@@ -9,9 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@sanity/vision": "^3.0.0",
+    "@heroicons/react": "^2.0.13",
     "@portabletext/react": "^2.0.0",
     "@sanity/image-url": "^1.0.2",
+    "@sanity/vision": "^3.0.0",
     "eslint-config-next": "13.0.3",
     "framer-motion": "^7.6.7",
     "next": "13.0.3",
@@ -21,8 +22,8 @@
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.13",
     "@sanity/eslint-config-studio": "^2.0.1",
+    "autoprefixer": "^10.4.13",
     "eslint": "^8.27.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.26.0",

@@ -2,7 +2,7 @@ import { buildLegacyTheme, defineConfig } from "sanity";
 
 const props = {
   "--my-white": "#fff",
-  "--my-black": "#1a1a1a",
+  "--my-black": "#020B18",
   "--my-main": "#F76809",
   "--my-red": "#db4437",
   "--my-yellow": "#f4b400",

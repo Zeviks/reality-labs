@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import StudioNavbar from "./StudioNavbar";
 import { TypingText, TitleText } from "./CustomTexts";
 import ExploreCard from "./ExploreCard";
 import StartSteps from "./StartSteps";
@@ -15,4 +16,5 @@ export {
   ExploreCard,
   InsightCard,
   Footer,
+  StudioNavbar,
 };
