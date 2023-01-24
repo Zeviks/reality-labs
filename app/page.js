@@ -1,4 +1,4 @@
-import { Footer, NavigationBar } from "../components";
+import { Footer, Navbar } from "../components";
 
 import {
   About,
@@ -13,8 +13,8 @@ import {
 } from "../sections";
 
 const Page = () => (
-  <div className="bg-primary-black text-amber-400">
-    <NavigationBar />
+  <div className="bg-primary-black text-white overfill-hidden">
+    <Navbar />
     <Hero />
     <Partners />
     <About />
