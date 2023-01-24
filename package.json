@@ -10,10 +10,13 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.13",
+    "@next/font": "^13.1.4",
     "@portabletext/react": "^2.0.0",
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.0.0",
     "eslint-config-next": "13.0.3",
+    "flowbite": "^1.6.3",
+    "flowbite-react": "^0.3.7",
     "framer-motion": "^7.6.7",
     "next": "13.0.3",
     "next-sanity": "^4.1.1",

@@ -1,7 +1,13 @@
-import React from "react";
+import Banner from "../../components/Banner";
 
 const blog = () => {
-  return <div>Blogging.....</div>;
+  return (
+    <html>
+      <body>
+        <Banner />
+      </body>
+    </html>
+  );
 };
 
 export default blog;

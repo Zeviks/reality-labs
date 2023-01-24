@@ -28,10 +28,29 @@ If it has public means anyone can see it
 Schemas is where we structure how our data will be stored and displayed. 
 
 
-
-
-
 [Compartementalizing]
 
 By adding () to a folder it will not affect its root. 
 
+
+[DESIGN]
+
+
+[FUCNTIONALITY]
+
+
+Created an index.js file to simulate structured data where i have stored all of the images and titles. 
+Inside of the globls.css, i have stored all of my custom gradients for easy access
+Also i created an index.js file where i have extracted all of my most commonly used styles to decrese repetition while decreaseing the amount of 
+styles i have to type
+
+We have also our motion.js files, this holds most of the most commonly used variant animations of each element.
+For example there's a special function for slide in , diferent variants for text
+
+
+[NEXT 13]
+- Introdcution to next 13 
+- How we made use of it 
+- The importance of 'use client'
+- Server Components vs Client Components 
+- The App folder architecture, and how we can scale beyond the current point if we wanted to.
