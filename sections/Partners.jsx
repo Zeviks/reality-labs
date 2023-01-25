@@ -1,9 +1,7 @@
-import React from "react";
-
 const Partners = () => {
   return (
     <section>
-      <h2 className="flex font-bold tracking-tight leading-tight text-center text-white md:text-xl">
+      <h2 className="flex py-4 font-light justify-center tracking-tight leading-tight text-center text-white md:text-xl">
         Trusted by
       </h2>
       <div className="bg-main-500">
