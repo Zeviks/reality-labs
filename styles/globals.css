@@ -13,13 +13,13 @@
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
-    hsl(295deg 76% 51%) 0%,
-    hsl(284deg 70% 73%) 26%,
-    hsl(257deg 70% 86%) 39%,
-    hsl(202deg 92% 90%) 50%,
-    hsl(215deg 77% 81%) 61%,
-    hsl(221deg 73% 70%) 74%,
-    hsl(220deg 76% 51%) 100%
+    #f76809 0%,
+    #F98639 26%,
+    #FAA46B 39%,
+    #f76809 50%,
+    #F98639 61%,
+    #FAA46B 74%,
+    #FCC29C 100%
   );
   filter: blur(125px);
 }
@@ -27,9 +27,9 @@
 .hero-gradient {
   background: linear-gradient(
     97.86deg,
-    #a509ff 0%,
-    #34acc7 53.65%,
-    #a134c7 100%
+    #FCC29C 0%,
+    #F98639 53.65%,
+    #f76809 100%
   );
 }
 
@@ -40,7 +40,7 @@
   top: 0px;
   right: 0px;
 
-  background: #7aebfb;
+  background: #f76809;
   filter: blur(190px);
 }
 
