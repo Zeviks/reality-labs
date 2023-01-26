@@ -1,12 +1,12 @@
 "use client";
 import { motion } from "framer-motion";
-import { TypingText, ExploreCard, TitleText } from "../components";
+import { TypingText, ServiceCard, TitleText } from "../components";
 import { useState } from "react";
 import { staggerContainer } from "../utils/motion";
 import styles from "../styles";
-import { exploreWorld, exploreWorlds } from "../constants";
+import { serviceList } from "../constants";
 
-const Explore = () => {
+const Services = () => {
   //Once i have understood the purpose of the state, rename the variables
   const [active, setActive] = useState("wordl-2");
 
@@ -23,8 +23,8 @@ const Explore = () => {
         <TypingText title="| Services" textStyles="text-center" />
         <TitleText title={<>Our Services</>} textStyles="text-center" />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {exploreWorlds.map((world, index) => (
-            <ExploreCard
+          {serviceList.map((world, index) => (
+            <ServiceCard
               key={world.id}
               {...world}
               index={index}
@@ -38,4 +38,4 @@ const Explore = () => {
   );
 };
 
-export default Explore;
+export default Services;

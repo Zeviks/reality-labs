@@ -4,7 +4,7 @@ import styles from "../styles";
 import { fadeIn, staggerContainer } from "../utils/motion";
 import { TitleText, TypingText } from "../components";
 
-const World = () => (
+const Testimonials = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
@@ -47,4 +47,4 @@ const World = () => (
   </section>
 );
 
-export default World;
+export default Testimonials;

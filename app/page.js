@@ -1,5 +1,12 @@
 import { Footer, Navbar } from "../components";
-import { About, Explore, Feedback, Hero, Insights, World } from "../sections";
+import {
+  About,
+  Services,
+  Feedback,
+  Hero,
+  CaseStudies,
+  Testimonials,
+} from "../sections";
 
 const Page = () => (
   <div className="bg-white overflow-hidden">
@@ -7,15 +14,15 @@ const Page = () => (
     <Hero />
     <div className="relative">
       <About />
-      <Explore />
+      <Services />
     </div>
     <div className="relative">
       <div className="gradient-world -z-0" />
-      <World />
+      <Testimonials />
     </div>
 
     <div className="relative">
-      <Insights />
+      <CaseStudies />
       <div className="gradient-04 -z-0" />
       <Feedback />
     </div>

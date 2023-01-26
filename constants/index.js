@@ -1,4 +1,4 @@
-export const exploreWorlds = [
+export const serviceList = [
   {
     id: "service-1",
     imgUrl: "/design.jpg",
@@ -26,7 +26,7 @@ export const exploreWorlds = [
   },
 ];
 
-export const insights = [
+export const caseStudies = [
   {
     imgUrl: "/dev.jpg",
     title: "The launch of the Metaverse makes Elon musk ketar-ketir",

@@ -2,10 +2,10 @@
 import styles from "../styles";
 import { motion } from "framer-motion";
 import { staggerContainer } from "../utils/motion";
-import { TitleText, TypingText, InsightCard } from "../components";
-import { insights } from "../constants";
+import { TitleText, TypingText, CaseCard } from "../components";
+import { caseStudies } from "../constants";
 
-const Insights = () => (
+const CaseStudies = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
@@ -17,12 +17,12 @@ const Insights = () => (
       <TypingText title="| Case Studies" textStyles="text-center" />
       <TitleText title={<>Featured Projects</>} textStyles="text-center" />
       <div className="mt-[50px] flex flex-col gap-[30px]">
-        {insights.map((item, index) => (
-          <InsightCard key={`insight-${index}`} {...item} index={index + 1} />
+        {caseStudies.map((item, index) => (
+          <CaseCard key={`insight-${index}`} {...item} index={index + 1} />
         ))}
       </div>
     </motion.div>
   </section>
 );
 
-export default Insights;
+export default CaseStudies;

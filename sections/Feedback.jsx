@@ -49,7 +49,7 @@ const Feedback = () => (
           variants={zoomIn(0.4, 1)}
           className="lg:block hidden absolute -left-[10%] top-[3%]"
         >
-          <a href="#explore">
+          <a href="#services">
             <img
               src="/stamp-6.png"
               alt="stamp"

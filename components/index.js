@@ -1,20 +1,16 @@
 import Navbar from "./Navbar";
 import StudioNavbar from "./StudioNavbar";
 import { TypingText, TitleText } from "./CustomTexts";
-import ExploreCard from "./ExploreCard";
-import StartSteps from "./StartSteps";
-import NewFeatures from "./NewFeatures";
-import InsightCard from "./InsightCard";
+import ServiceCard from "./ServiceCard";
+import CaseCard from "./InsightCard";
 import Footer from "./Footer";
 
 export {
   Navbar,
   TitleText,
   TypingText,
-  StartSteps,
-  NewFeatures,
-  ExploreCard,
-  InsightCard,
+  ServiceCard,
+  CaseCard,
   Footer,
   StudioNavbar,
 };
