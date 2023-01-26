@@ -22,7 +22,7 @@ const post = async ({ params: { slug } }) => {
     }`;
 
     const slug = await client.fetch(query);
-    const slugRoutes = slugs.map((slug) => slug.slug.current);
+    const slugRoutes = slug.map((slug) => slug.slug.current);
 
     return slugRoutes.map((slug) => ({
       slug,
