@@ -4,8 +4,9 @@ import { motion } from "framer-motion";
 import { staggerContainer } from "../utils/motion";
 import { TitleText, TypingText, CaseCard } from "../components";
 import { caseStudies } from "../constants";
+import urlFor from "../lib/urlFor";
 
-const CaseStudies = () => (
+const CaseStudies = ({ posts }) => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
@@ -17,8 +18,15 @@ const CaseStudies = () => (
       <TypingText title="| Case Studies" textStyles="text-center" />
       <TitleText title={<>Featured Projects</>} textStyles="text-center" />
       <div className="mt-[50px] flex flex-col gap-[30px]">
-        {caseStudies.map((item, index) => (
-          <CaseCard key={`project-${index}`} {...item} index={index + 1} />
+        {posts.map((post) => (
+          <CaseCard
+            key={post.id}
+            title={post.title}
+            subtitle={post.subtitle}
+            imgUrl={urlFor(post.mainImage).url()}
+            imgAlt={post.author.name}
+            index={post.index}
+          />
         ))}
       </div>
     </motion.div>

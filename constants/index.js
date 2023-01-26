@@ -45,6 +45,18 @@ export const caseStudies = [
     subtitle:
       "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
   },
+  {
+    imgUrl: "/design.jpg",
+    title: "With one platform you can explore the whole world virtually",
+    subtitle:
+      "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
+  },
+  {
+    imgUrl: "/design.jpg",
+    title: "With one platform you can explore the whole world virtually",
+    subtitle:
+      "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
+  },
 ];
 
 export const socials = [
