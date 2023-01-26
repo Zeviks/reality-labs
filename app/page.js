@@ -16,13 +16,16 @@ const Page = () => (
     <Hero />
     <div className="relative">
       <About />
-      <div className="gradient-03 z-0" />
       <Explore />
     </div>
-    <World />
+    <div className="relative">
+      <div className="gradient-world -z-0" />
+      <World />
+    </div>
+
     <div className="relative">
       <Insights />
-      <div className="gradient-04 z-0" />
+      <div className="gradient-04 -z-0" />
       <Feedback />
     </div>
     <Footer />

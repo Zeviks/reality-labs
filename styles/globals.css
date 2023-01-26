@@ -27,7 +27,7 @@
 .hero-gradient {
   background: linear-gradient(
     97.86deg,
-    #FCC29C 0%,
+    rgb(252, 194, 156) 0%,
     #F98639 53.65%,
     #f76809 100%
   );
@@ -71,7 +71,18 @@
   left: 30%;
   top: 10%;
 
-  background: rgba(45, 72, 152, 0.75);
+  background: rgb(252, 194, 156);
+  filter: blur(200px);
+  transform: rotate(-53.13deg);
+}
+.gradient-world {
+  position: absolute;
+  width: 304px;
+  height: 100vh;
+  left: 30%;
+  top: 10%;
+
+  background: #7e96ff;
   filter: blur(200px);
   transform: rotate(-53.13deg);
 }
@@ -91,7 +102,7 @@
   left: 0px;
   top: 0px;
 
-  background: #8d39a3;
+  background: #f76809;
   filter: blur(175px);
 }
 
