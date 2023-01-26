@@ -3,11 +3,10 @@ import styles from "../styles";
 import { motion } from "framer-motion";
 import { staggerContainer } from "../utils/motion";
 import { TitleText, TypingText, CaseCard } from "../components";
-import { caseStudies } from "../constants";
 import urlFor from "../lib/urlFor";
 
 const CaseStudies = ({ posts }) => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings} relative z-10`} id="case-studies">
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -26,6 +25,7 @@ const CaseStudies = ({ posts }) => (
             imgUrl={urlFor(post.mainImage).url()}
             imgAlt={post.author.name}
             index={post.index}
+            link={post.slug.current}
           />
         ))}
       </div>

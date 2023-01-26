@@ -4,6 +4,9 @@ import Image from "next/image";
 import urlFor from "../../../../lib/urlFor";
 import { PortableText } from "@portabletext/react";
 import RichTextComponents from "../../../../components/RichTextComponents";
+import { Footer, Navbar } from "../../../../components";
+
+export const revalidate = 30;
 
 const post = async ({ params: { slug } }) => {
   const query = groq`
@@ -15,10 +18,24 @@ const post = async ({ params: { slug } }) => {
     }
     `;
 
+  const generateStaticParams = async () => {
+    const query = groq`*[_type=='post']
+    {
+      slug
+    }`;
+
+    const slug = await client.fetch(query);
+    const slugRoutes = slugs.map((slug) => slug.slug.current);
+
+    return slugRoutes.map((slug) => ({
+      slug,
+    }));
+  };
+
   const post = await client.fetch(query, { slug });
 
   return (
-    <article className="px-10 pb-28">
+    <article className="px-10 pb-2">
       <section className="space-y-2 border-main-400 text-white">
         <div className="relative min-h-56 flex flex-col md:flex-row justify-between">
           <div className="absolute top-0 w-full h-full opacity-10 blur-sm p-10">
@@ -50,6 +67,14 @@ const post = async ({ params: { slug } }) => {
         </div>
       </section>
       <PortableText value={post.body} components={RichTextComponents} />
+      <a
+        href="/#case-studies"
+        className="mt-10 flex items-center h-fit w-fit py-4 px-6 hover:bg-main-400 bg-main-500 rounded-[32px] transition-all"
+      >
+        <span className="font-normal text-[16px] text-font-color">
+          Back to Case Studies
+        </span>
+      </a>
     </article>
   );
 };

@@ -8,7 +8,7 @@ import { serviceList } from "../constants";
 
 const Services = () => {
   //Once i have understood the purpose of the state, rename the variables
-  const [active, setActive] = useState("wordl-2");
+  const [active, setActive] = useState("world-2");
 
   return (
     <section className={`${styles.paddings}`} id="services">
