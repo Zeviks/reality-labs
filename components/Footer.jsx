@@ -18,7 +18,7 @@ const Footer = () => (
       <div className="flex items-center justify-between flex-wrap gap-5">
         <a
           href="/#"
-          className="flex items-center h-fit py-4 px-6 bg-main-500 rounded-[32px] gap-[12px]"
+          className="flex items-center h-fit py-4 px-6 hover:bg-main-400 bg-main-500 rounded-[32px] gap-[12px] transition-all"
         >
           <img
             src="/arrow.svg"

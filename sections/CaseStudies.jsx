@@ -18,7 +18,7 @@ const CaseStudies = () => (
       <TitleText title={<>Featured Projects</>} textStyles="text-center" />
       <div className="mt-[50px] flex flex-col gap-[30px]">
         {caseStudies.map((item, index) => (
-          <CaseCard key={`insight-${index}`} {...item} index={index + 1} />
+          <CaseCard key={`project-${index}`} {...item} index={index + 1} />
         ))}
       </div>
     </motion.div>

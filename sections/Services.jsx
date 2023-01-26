@@ -11,7 +11,7 @@ const Services = () => {
   const [active, setActive] = useState("wordl-2");
 
   return (
-    <section className={`${styles.paddings}`} id="explore">
+    <section className={`${styles.paddings}`} id="services">
       <motion.div
         variants={staggerContainer}
         initial="hidden"

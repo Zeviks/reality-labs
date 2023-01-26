@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import StudioNavbar from "./StudioNavbar";
 import { TypingText, TitleText } from "./CustomTexts";
 import ServiceCard from "./ServiceCard";
-import CaseCard from "./InsightCard";
+import CaseCard from "./CaseCard";
 import Footer from "./Footer";
 
 export {

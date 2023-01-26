@@ -12,8 +12,8 @@ const Navibar = () => (
     className={`${styles.xPaddings} py-8 relative z-50`}
   >
     <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
-      <h2 className="font-bold text-[20px] leading-[30px] text-font-color">
-        Reality Labs
+      <h2 className="font-bold text-[20px] leading-[30px] text-font-color hover:text-slate-600 transition-all">
+        <a href="/">Reality Labs</a>
       </h2>
       <img
         src="/menu.svg"
