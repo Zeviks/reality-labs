@@ -15,13 +15,13 @@ const Navibar = () => (
   >
     <div className="absolute w-[50%] inset-0 gradient-01" />
     <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
-      <h2 className="font-bold text-[20px] leading-[30px] text-white">
+      <h2 className="font-bold text-[20px] leading-[30px] text-font-color">
         Reality Labs
       </h2>
       <img
         src="/menu.svg"
         alt="search"
-        className="w-[24px] h-[24px] object-contain"
+        className="w-[24px] h-[24px] object-contain "
       />
     </div>
   </motion.div>

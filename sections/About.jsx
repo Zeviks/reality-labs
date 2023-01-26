@@ -17,10 +17,11 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Reality" textStyle="text-center" />
+      <TypingText title="| About Metaversus" textStyles="text-center" />
+
       <motion.p
         variants={fadeIn("up", "tween", 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-font-color"
       >
         At <span className="font-bold text-main-500">Reality Labs</span>, we
         specialize in creating visually stunning and highly functional websites
@@ -34,6 +35,7 @@ const About = () => (
         Let us help you make a lasting impression with a website that truly
         represents your brand.
       </motion.p>
+
       <motion.img
         variants={fadeIn("up", "tween", 0.3, 1)}
         src="/arrow-down.svg"

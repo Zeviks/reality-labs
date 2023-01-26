@@ -3,8 +3,6 @@ import { motion } from "framer-motion";
 import styles from "../styles";
 import { slideIn, staggerContainer, textVariant } from "../utils/motion";
 
-import Link from "next/link";
-
 const Hero = () => (
   <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
     <motion.div
@@ -18,7 +16,7 @@ const Hero = () => (
         <motion.h1
           //This takes a funcions which takes a delay value / Hero Section
           variants={textVariant(1.1)}
-          className={styles.heroHeading}
+          className={`${styles.heroHeading} lg:text-[144px] md:text-[90px]`}
         >
           DESIGNING
         </motion.h1>
@@ -26,7 +24,11 @@ const Hero = () => (
           variants={textVariant(1.5)}
           className="flex flex-row justify-center items-center"
         >
-          <h1 className={`${styles.heroHeading}`}>FOR HUMANS.</h1>
+          <h1
+            className={`${styles.heroHeading} sm:text-[20px] md:text-[74px] lg:text-[135px]`}
+          >
+            FOR HUMANS.
+          </h1>
         </motion.div>
       </div>
 
@@ -36,7 +38,7 @@ const Hero = () => (
       >
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
         <img
-          src="/Hero.png"
+          src="/hero-main.jpg"
           alt="cover"
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
         />
