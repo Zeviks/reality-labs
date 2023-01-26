@@ -5,8 +5,6 @@ import urlFor from "../../../../lib/urlFor";
 import { PortableText } from "@portabletext/react";
 import RichTextComponents from "../../../../components/RichTextComponents";
 
-export const revalidate = 30;
-
 const post = async ({ params: { slug } }) => {
   const query = groq`
     *[_type=='post' && slug.current == $slug][0]
