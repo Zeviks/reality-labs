@@ -7,8 +7,7 @@ import styles from "../styles";
 import { serviceList } from "../constants";
 
 const Services = () => {
-  //Once i have understood the purpose of the state, rename the variables
-  const [active, setActive] = useState("world-2");
+  const [active, setActive] = useState("service-1");
 
   return (
     <section className={`${styles.paddings}`} id="services">
@@ -16,17 +15,16 @@ const Services = () => {
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
-        //discover the meaning of "amount"
-        viewport={{ once: false, amount: 0.25 }}
+        viewport={{ once: false }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <TypingText title="| Services" textStyles="text-center" />
         <TitleText title={<>Our Services</>} textStyles="text-center" />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {serviceList.map((world, index) => (
+          {serviceList.map((service, index) => (
             <ServiceCard
-              key={world.id}
-              {...world}
+              key={service.id}
+              {...service}
               index={index}
               active={active}
               handleClick={setActive}

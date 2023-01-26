@@ -18,7 +18,7 @@ const Navibar = () => (
       <img
         src="/menu.svg"
         alt="search"
-        className="w-[24px] h-[24px] object-contain "
+        className="w-[24px] h-[24px] object-contain"
       />
     </div>
   </motion.div>
