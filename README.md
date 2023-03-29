@@ -2,7 +2,7 @@ Reality Labs : Full Stack Design Agency Landing Page w/ Blog.
 
 <img width="2362" alt="main" src="https://user-images.githubusercontent.com/68613251/228486630-4698d88e-f123-4583-9eb3-bf2410b834c8.png">
 
-Live Site 🌏: reality-labs-zeviks.vercel.app/ </br>
+Live Site 🌏: https://reality-labs-zeviks.vercel.app/ </br>
 
 
 ## Technologies Used 🧪 </br>
